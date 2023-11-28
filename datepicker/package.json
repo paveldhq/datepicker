@@ -1,0 +1,31 @@
+{
+  "name": "@ratushnyi/datepicker",
+  "version": "1.0.0",
+  "repository": "https://github.com/paveldhq/datepicker",
+  "keywords": [
+    "angular",
+    "material",
+    "datepicker",
+    "range datepicker"
+  ],
+  "author": {
+    "name": "Pavlo Ratushnyi"
+  },
+  "contributors": [
+    {
+      "name": "saturn",
+      "email": "saturn@saturn.team"
+    }
+  ],
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+  },
+  "ngPackage": {
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "lib": {
+      "entryFile": "src/public-api.ts"
+    },
+    "dest": "../dist"
+  }
+}
